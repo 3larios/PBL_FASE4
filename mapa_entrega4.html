@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b10226b7751515ccc937e38a9dd1ff16 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b10226b7751515ccc937e38a9dd1ff16" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b10226b7751515ccc937e38a9dd1ff16 = L.map(
+                "map_b10226b7751515ccc937e38a9dd1ff16",
+                {
+                    center: [-23.4915828984375, -46.60015637890625],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a668bdaf876cf0d625f8e366942c8ec = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8a668bdaf876cf0d625f8e366942c8ec.addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var marker_8bd637a7f95515349c9a2b85525f93ae = L.marker(
+                [-23.553, -46.655],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_a6050a5e969190c66774a9a9bd3fc7d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_635fd856d27681983c4fca916276ef2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9fa9ee2dd96ea88acc77a9a80059f42 = $(`<div id="html_d9fa9ee2dd96ea88acc77a9a80059f42" style="width: 100.0%; height: 100.0%;">Rua Frei Caneca (Shopping)</div>`)[0];
+                popup_635fd856d27681983c4fca916276ef2b.setContent(html_d9fa9ee2dd96ea88acc77a9a80059f42);
+            
+        
+
+        marker_8bd637a7f95515349c9a2b85525f93ae.bindPopup(popup_635fd856d27681983c4fca916276ef2b)
+        ;
+
+        
+    
+    
+                marker_8bd637a7f95515349c9a2b85525f93ae.setIcon(icon_a6050a5e969190c66774a9a9bd3fc7d7);
+            
+    
+            var marker_3a6bba8acef58d6ee027bcfd50057655 = L.marker(
+                [-23.507, -46.637],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_9a18d68972a30b360494d0471bed7be8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_658ec33199772313bc017fb3e9d3a4c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05174cd7911a9b4ebf76699299551dda = $(`<div id="html_05174cd7911a9b4ebf76699299551dda" style="width: 100.0%; height: 100.0%;">Campo Marte (Parque)</div>`)[0];
+                popup_658ec33199772313bc017fb3e9d3a4c9.setContent(html_05174cd7911a9b4ebf76699299551dda);
+            
+        
+
+        marker_3a6bba8acef58d6ee027bcfd50057655.bindPopup(popup_658ec33199772313bc017fb3e9d3a4c9)
+        ;
+
+        
+    
+    
+                marker_3a6bba8acef58d6ee027bcfd50057655.setIcon(icon_9a18d68972a30b360494d0471bed7be8);
+            
+    
+            var marker_d86b986d7dcac5057b6683928a606346 = L.marker(
+                [-23.623, -46.699],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_a6f1776c3021fbb86995be108a8efa1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_648c6a81619090041aa090c53cdfd172 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_405c3fd61b7d83015edd0926087aa85c = $(`<div id="html_405c3fd61b7d83015edd0926087aa85c" style="width: 100.0%; height: 100.0%;">Shopping Morumbi (Shopping)</div>`)[0];
+                popup_648c6a81619090041aa090c53cdfd172.setContent(html_405c3fd61b7d83015edd0926087aa85c);
+            
+        
+
+        marker_d86b986d7dcac5057b6683928a606346.bindPopup(popup_648c6a81619090041aa090c53cdfd172)
+        ;
+
+        
+    
+    
+                marker_d86b986d7dcac5057b6683928a606346.setIcon(icon_a6f1776c3021fbb86995be108a8efa1e);
+            
+    
+            var marker_23f51802008c7819934c5b671de78fb8 = L.marker(
+                [-23.559, -46.73],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_f2151d76193878857f1265d63d67c741 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f64f4163ee63a91614759ce856654556 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_906edcccd045996ec9e74a7c27a8627f = $(`<div id="html_906edcccd045996ec9e74a7c27a8627f" style="width: 100.0%; height: 100.0%;">Parque da USP (Parque)</div>`)[0];
+                popup_f64f4163ee63a91614759ce856654556.setContent(html_906edcccd045996ec9e74a7c27a8627f);
+            
+        
+
+        marker_23f51802008c7819934c5b671de78fb8.bindPopup(popup_f64f4163ee63a91614759ce856654556)
+        ;
+
+        
+    
+    
+                marker_23f51802008c7819934c5b671de78fb8.setIcon(icon_f2151d76193878857f1265d63d67c741);
+            
+    
+            var marker_d9e0dbb3e5319aeaee93570741826c06 = L.marker(
+                [-23.3124, -46.413],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_f86f4a0761fde4b9f4cd6ff55ee07126 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b16e36ddfd68a10c7be5371fb8045c51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdaca2091466e64f764812ba3c53f98b = $(`<div id="html_fdaca2091466e64f764812ba3c53f98b" style="width: 100.0%; height: 100.0%;">Bar do Valadares (Alimentacao)</div>`)[0];
+                popup_b16e36ddfd68a10c7be5371fb8045c51.setContent(html_fdaca2091466e64f764812ba3c53f98b);
+            
+        
+
+        marker_d9e0dbb3e5319aeaee93570741826c06.bindPopup(popup_b16e36ddfd68a10c7be5371fb8045c51)
+        ;
+
+        
+    
+    
+                marker_d9e0dbb3e5319aeaee93570741826c06.setIcon(icon_f86f4a0761fde4b9f4cd6ff55ee07126);
+            
+    
+            var marker_e4cf7b859cd3d401f1ea14ddd08dcb81 = L.marker(
+                [-23.54, -46.575],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_291ed191151c64ef0f44d611cf22d3cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4d57f4f287e938a7160a4ece756b85f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5c327803acc33fcb9551e41b85b3019 = $(`<div id="html_d5c327803acc33fcb9551e41b85b3019" style="width: 100.0%; height: 100.0%;">Shopping Tatuape (Shopping)</div>`)[0];
+                popup_d4d57f4f287e938a7160a4ece756b85f.setContent(html_d5c327803acc33fcb9551e41b85b3019);
+            
+        
+
+        marker_e4cf7b859cd3d401f1ea14ddd08dcb81.bindPopup(popup_d4d57f4f287e938a7160a4ece756b85f)
+        ;
+
+        
+    
+    
+                marker_e4cf7b859cd3d401f1ea14ddd08dcb81.setIcon(icon_291ed191151c64ef0f44d611cf22d3cb);
+            
+    
+            var marker_6db7f0124037606354d4ef535f58ce71 = L.marker(
+                [-23.56354, -46.65258],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_629ef28bd0bd3b772c2cec6e9a983b7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e2fc40cb2a70e1fe6f6428c368dac1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a777012f72c230cf31dfe5d3ee25b4f = $(`<div id="html_7a777012f72c230cf31dfe5d3ee25b4f" style="width: 100.0%; height: 100.0%;">Shopping Cidade Sao Paulo (Shopping)</div>`)[0];
+                popup_8e2fc40cb2a70e1fe6f6428c368dac1f.setContent(html_7a777012f72c230cf31dfe5d3ee25b4f);
+            
+        
+
+        marker_6db7f0124037606354d4ef535f58ce71.bindPopup(popup_8e2fc40cb2a70e1fe6f6428c368dac1f)
+        ;
+
+        
+    
+    
+                marker_6db7f0124037606354d4ef535f58ce71.setIcon(icon_629ef28bd0bd3b772c2cec6e9a983b7f);
+            
+    
+            var marker_385aa1f1f8d3e120540ee77ef5c0cd7e = L.marker(
+                [-23.452, -46.722],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_e579af6b3a042a961495bdf6f7b0e760 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92d10ab6c1756a76327cfdc12eb4b231 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0afbde43bf323525f122af708a98083 = $(`<div id="html_a0afbde43bf323525f122af708a98083" style="width: 100.0%; height: 100.0%;">Roda Gigante Sao Paulo (Localizacao Publica)</div>`)[0];
+                popup_92d10ab6c1756a76327cfdc12eb4b231.setContent(html_a0afbde43bf323525f122af708a98083);
+            
+        
+
+        marker_385aa1f1f8d3e120540ee77ef5c0cd7e.bindPopup(popup_92d10ab6c1756a76327cfdc12eb4b231)
+        ;
+
+        
+    
+    
+                marker_385aa1f1f8d3e120540ee77ef5c0cd7e.setIcon(icon_e579af6b3a042a961495bdf6f7b0e760);
+            
+    
+            var marker_93aecbe9c33640080cbcfe1468805012 = L.marker(
+                [-23.3536, -46.3651],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_c758cabd5b03a6237faee50b757bdd5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91caacfa641faaf263999a2f785a194a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34e05f122a0c03c983d37639d7568330 = $(`<div id="html_34e05f122a0c03c983d37639d7568330" style="width: 100.0%; height: 100.0%;">Aquario de Sao Paulo (Localizacao Publica)</div>`)[0];
+                popup_91caacfa641faaf263999a2f785a194a.setContent(html_34e05f122a0c03c983d37639d7568330);
+            
+        
+
+        marker_93aecbe9c33640080cbcfe1468805012.bindPopup(popup_91caacfa641faaf263999a2f785a194a)
+        ;
+
+        
+    
+    
+                marker_93aecbe9c33640080cbcfe1468805012.setIcon(icon_c758cabd5b03a6237faee50b757bdd5d);
+            
+    
+            var marker_6db96ac27fe5f7c4ba3721439c578e0a = L.marker(
+                [-23.3347, -46.3915],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_c6ca990d836594545c5b05e0662a5612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9efad6c717edd54518bd8a53f18b9906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efbeaed4960ba9c398ba3119a7446cd6 = $(`<div id="html_efbeaed4960ba9c398ba3119a7446cd6" style="width: 100.0%; height: 100.0%;">Parque do Trianon (Parque)</div>`)[0];
+                popup_9efad6c717edd54518bd8a53f18b9906.setContent(html_efbeaed4960ba9c398ba3119a7446cd6);
+            
+        
+
+        marker_6db96ac27fe5f7c4ba3721439c578e0a.bindPopup(popup_9efad6c717edd54518bd8a53f18b9906)
+        ;
+
+        
+    
+    
+                marker_6db96ac27fe5f7c4ba3721439c578e0a.setIcon(icon_c6ca990d836594545c5b05e0662a5612);
+            
+    
+            var marker_0921ede65bcde08649bcda9e3e18d89b = L.marker(
+                [-23.561414, -46.655881],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_348fb11aa7d0b8c63fb3e306bd8edb6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c87a36fb565e74fbf7372b96432758f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87d17d3785c2ae29069c9157a5871acb = $(`<div id="html_87d17d3785c2ae29069c9157a5871acb" style="width: 100.0%; height: 100.0%;">MASP (Museu)</div>`)[0];
+                popup_c87a36fb565e74fbf7372b96432758f7.setContent(html_87d17d3785c2ae29069c9157a5871acb);
+            
+        
+
+        marker_0921ede65bcde08649bcda9e3e18d89b.bindPopup(popup_c87a36fb565e74fbf7372b96432758f7)
+        ;
+
+        
+    
+    
+                marker_0921ede65bcde08649bcda9e3e18d89b.setIcon(icon_348fb11aa7d0b8c63fb3e306bd8edb6b);
+            
+    
+            var marker_f5abbfb0c96a5be68f916fba225625d9 = L.marker(
+                [-23.542, -46.61],
+                {
+}
+            ).addTo(map_b10226b7751515ccc937e38a9dd1ff16);
+        
+    
+            var icon_ac58e91c7968fdbdcc5e4837182d3551 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a324a24e6a9087dcf62ffef2105f5c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e01212cdf84e9e59e199d6f86e51cf18 = $(`<div id="html_e01212cdf84e9e59e199d6f86e51cf18" style="width: 100.0%; height: 100.0%;">Feira do Bras (Localizacao Publica)</div>`)[0];
+                popup_a324a24e6a9087dcf62ffef2105f5c5a.setContent(html_e01212cdf84e9e59e199d6f86e51cf18);
+            
+        
+
+        marker_f5abbfb0c96a5be68f916fba225625d9.bindPopup(popup_a324a24e6a9087dcf62ffef2105f5c5a)
+        ;
+
+        
+    
+    
+                marker_f5abbfb0c96a5be68f916fba225625d9.setIcon(icon_ac58e91c7968fdbdcc5e4837182d3551);
+            
+</script>
+</html>
